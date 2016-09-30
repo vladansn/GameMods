@@ -1,0 +1,90 @@
+Homepage:
+-rework the image slider, since it is currently not implemented very professionally
+-the time should not be a clickable button
+-12 projects underneath each other are enough for the updates, 5 at mod updates
+-only show the latest news at the bottom of the page
+
+
+Calendar:
+-clicking one project should lead to its details page 
+-It should be possible to add new entries from all modules (lets plays and new games) into the release calendar, as well as there should be an extra extry field for episode numbers and dlc titles
+
+
+Let's Play List:
+-20 projects underneath each other per page
+-Popular and Most Favorite 10 underneath each other
+
+
+Walkthrough:
+-10 rows, so 5 in one row x 10 rows = 50 on one page
+-add checkboxes to the category filter, so it is easier to see which ones are chosen
+
+
+Reader:
+-GameMods on the top left should lead back to "gamemods.online/Walkthrough" 
+-chapter and Pages -> automatically jump to the chapter or page X when you choose one
+(-swipe to turn pages for smartphones/tablets?)
+-Thumbnails inside the Modal should really be made into Thumbs 
+-linking to the Series, Magazines etc., meaning when you click on "Mario" as a "Series:" , you will get to the walkthrough overview page, where you will only see files with "Mario" 
+-Walkthrough Files will be uploaded as either .zip or .rar , in best case should be unzipped automatically, so you can see every single page in the Backend and maybe sort them per drag and drop into the right order and change the names of the pages if necessary and when you push the Release Button they should be shown inside the reader in the correct order, like e.g. 0001.jpg, 0002.jpg, 0003.jpg and so on, and the first page should be made into the cover image (Unless you have a better idea)
+-for the walkthrough DDL Download just save the uploaded .rar file
+-in case there are too many simultaneuous download requests, make sure that it does not slow the website itself down
+
+
+Games:
+-fixing the sizes of the images (auto. resize for too big ones etc.) 
+-10 Projects underneath each other
+-Popular and Most Favorite 5 underneath each other
+-i should be able to make new entries for Category and Genre with custom names and colors in the backend
+
+
+GameDetails:
+-embed Trailers
+-voting system, the blue bar should show upvote and downvote relationship
+
+Profile:
+-Registration and Login with Captcha but without activation mail (Design can be taken from the template)
+-Avatar (250x250px) upload function or possibility to use Gravatar 
+-show registration date
+-show Favourites 
+-Vote for games
+-write comments
+-Private messages (only if this isn't too much)
+-stay logged in?
+
+
+changeable Default Settings inside the Backend:
+-Logo
+-backgroundcolor of the Slider
+-general Color Theme (which is now blue)
+-Possibility to add new languages for the projects
+-Icons to video portals such as youtube should be changeable and i should be able to add new ones (see: backend-host.jpg)
+
+
+General:
+-everything bootstrap and responsive
+-comments:
+1. At the very bottom of the reader
+2. At the very bottom of Lets Play details
+3. Underneath the streams and downloads at Media Details
+4. At the very bottom of GameDetails
+
+-Informations that are not entered when the project is created will be masked in the frontend (that means: no information given to Series = Series will not show up in the frontend for this project)
+
+-games and let's play should also be separate things and possibly be stored separately, not together
+
+-hoster Icon Sizes for Download and Streams are 24px
+-projektname should show in the page link (/Media/Show/765/Grand-Theft-Auto)
+-Avility to delete comments and users in the backend
+
+
+FAQ:
+-create new categories, questions and answers within the backend
+
+
+Contact Us:
+-show messages inside the backend with name and email adress of the person who sent them.
+
+
+ads:
+-when you turn the page in the reader, the ads should reload, but not the page itself (Ideas?)

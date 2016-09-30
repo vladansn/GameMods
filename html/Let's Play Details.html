@@ -1,0 +1,649 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Title from the project -->
+    <title></title>
+
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Porto - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css" media="screen">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css" media="screen">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/theme-elements.css">
+    <link rel="stylesheet" href="css/theme-blog.css">
+    <link rel="stylesheet" href="css/theme-shop.css">
+    <link rel="stylesheet" href="css/theme-animate.css">
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skins/default.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.js"></script>
+
+    <!--[if IE]>
+        <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+    <!--[if lte IE 8]>
+        <script src="vendor/respond/respond.js"></script>
+        <script src="vendor/excanvas/excanvas.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="body">
+        <header id="header" class="narrow" data-plugin-options='{"alwaysStickyEnabled": true, "stickyEnabled": true, "stickyWithGap": false, "stickyChangeLogoSize": false}'>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img alt="Porto" src="img/logo.png">
+                    </a>
+                </div>
+                <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <div class="navbar-collapse nav-main-collapse collapse">
+                <div class="container">
+                    <ul class="social-icons">
+                        <!--<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>-->
+                        <li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a>
+                        </li>
+                        <li class="rss"><a href="http://www.twitter.com/" target="_blank" title="RSS">RSS</a>
+                        </li>
+                    </ul>
+                    <nav class="nav-main mega-menu">
+                        <ul class="nav nav-pills nav-main" id="mainMenu">
+                            <li>
+                                <a href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    News
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#">
+                                    Let's Play
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Release Calendar
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Walkthrough
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Games
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    FAQ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div role="main" class="main" style="background: #f0f0f0">
+
+            <section class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="breadcrumb">
+                                <li><a href="#">Home</a>
+                                </li>
+                                <li><a href="#">Let's Play</a>
+                                </li>
+                                <li class="active">Grand Theft Auto V</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Grand Theft Auto V</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Media cover image with details below -->
+            <!-- voting system, the blue bar should show upvote and downvote relationship -->
+            <!-- make it possible to create new tags in the backend, one field to write them, separating tags by comma (game, rpg, mod) -->
+
+            <div class="container" style="margin-top: -35px; margin-bottom: -50px; background: #FFFFFF">
+                <div class="row" style="box-shadow: 0px 0px 20px #000000; padding-top: 24px">
+                    <div class="col-md-4" style="background: #ffffff; margin-top: -24px; padding-top: 24px">
+                        <aside class="sidebar">
+
+                            <img class="img-responsive" src="Content/Uploads/Cover/gta-cover.jpg" alt="" style="width: 100%">
+                            <div id="Rating" style="margin-top: 10px">
+                                <div class="progress progress-sm" style="height: 5px; margin-bottom: 5px">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%; opacity: 0.4"></div>
+                                </div>
+                                <div class="pull-right">
+                                    <a class="btn btn-default"><i class="fa fa-heart"></i></a> <a class="btn btn-default"><i class="fa fa-thumbs-up"></i> 623</a> <a class="btn btn-default"><i class="fa fa-thumbs-down"></i> 433</a>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix" style="height: 30px"></div>
+
+                            <h5 class="heading-primary">Tags</h5>
+
+                            <a href="#"><span class="label label-dark">gta</span></a>
+                            <a href="#"><span class="label label-dark">cars</span></a>
+                            <a href="#"><span class="label label-dark">shooter</span></a>
+                            <a href="#"><span class="label label-dark">rockstar</span></a>
+                            <a href="#"><span class="label label-dark">heist</span></a>
+                            <a href="#"><span class="label label-dark">dog</span></a>
+                            <a href="#"><span class="label label-dark">gun</span></a>
+                            <a href="#"><span class="label label-dark">online</span></a>
+
+                            <hr />
+                            <h5 class="heading-primary">Titles</h5>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <strong>Short:</strong>
+                                </div>
+                                <div class="col-md-7">
+                                    GTA V, GTA 5
+                                </div>
+                            </div>
+                            <div class="clearfix" style="height: 5px"></div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <strong>Alternative:</strong>
+                                </div>
+                                <div class="col-md-7">
+                                    GTA V
+                                </div>
+                            </div>
+                            <div class="clearfix" style="height: 5px"></div>
+
+                            <h5 class="heading-primary">Details</h5>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <strong>Airing:</strong>
+                                </div>
+                                <div class="col-md-7">
+                                    26. December 2014
+                                </div>
+                            </div>
+                            <div class="clearfix" style="height: 5px"></div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <strong>Season:</strong>
+                                </div>
+                                <div class="col-md-7">
+                                    Winter, 2014
+                                </div>
+                            </div>
+                            <div class="clearfix" style="height: 5px"></div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <strong>Episodes:</strong>
+                                </div>
+                                <div class="col-md-7">
+                                    24/...
+                                </div>
+                            </div>
+                            <div class="clearfix" style="height: 5px"></div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <strong>Length:</strong>
+                                </div>
+                                <div class="col-md-7">
+                                    30 Min
+                                </div>
+                            </div>
+                            <div class="clearfix" style="height: 5px"></div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <strong>Genre:</strong>
+                                </div>
+                                <div class="col-md-7">
+                                    Shooter, Action
+                                </div>
+                            </div>
+                            <div class="clearfix" style="height: 5px"></div>
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <strong>Channel:</strong>
+                                </div>
+                                <div class="col-md-7">
+                                    LetsPlayer5222
+                                </div>
+                            </div>
+                            <div class="clearfix" style="height: 5px"></div>
+
+                        </aside>
+                    </div>
+                    <!-- Screenshots and pictures -->
+                    <div class="col-md-8">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="heading-primary">Pictures</h4>
+                                <div class="lightbox mb-lg" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
+                                    <div class="owl-carousel stage-margin rounded-nav" data-plugin-options='{"items": 4, "margin": 10, "loop": false, "nav": true, "dots": false, "stagePadding": 40}'>
+                                        <div>
+                                            <a class="img-thumbnail mb-xs mr-xs" href="Content/Uploads/Screens/1.jpg">
+                                                <img alt="" class="img-responsive img-rounded" src="Content/Uploads/Screens/1.jpg" style="height: 120px">
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a class="img-thumbnail mb-xs mr-xs" href="Content/Uploads/Screens/2.jpg">
+                                                <img alt="" class="img-responsive img-rounded" src="Content/Uploads/Screens/2.jpg" style="height: 120px">
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a class="img-thumbnail mb-xs mr-xs" href="Content/Uploads/Screens/3.jpg">
+                                                <img alt="" class="img-responsive img-rounded" src="Content/Uploads/Screens/3.jpg" style="height: 120px">
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a class="img-thumbnail mb-xs mr-xs" href="Content/Uploads/Screens/5.jpg">
+                                                <img alt="" class="img-responsive img-rounded" src="Content/Uploads/Screens/5.jpg" style="height: 120px">
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a class="img-thumbnail mb-xs mr-xs" href="Content/Uploads/Screens/2.jpg">
+                                                <img alt="" class="img-responsive img-rounded" src="Content/Uploads/Screens/2.jpg" style="height: 120px">
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a class="img-thumbnail mb-xs mr-xs" href="Content/Uploads/Screens/1.jpg">
+                                                <img alt="" class="img-responsive img-rounded" src="Content/Uploads/Screens/1.jpg" style="height: 120px">
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a class="img-thumbnail mb-xs mr-xs" href="Content/Uploads/Screens/4.jpg">
+                                                <img alt="" class="img-responsive img-rounded" src="Content/Uploads/Screens/4.jpg" style="height: 120px">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- description -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h4 class="heading-primary">Description</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Grand Theft Auto V is an open world action-adventure video game developed by Rockstar North and published by Rockstar Games.</p>
+                                <p>Nine years after a botched robbery in Ludendorff, North Yankton, former bank robber Michael Townley lives under witness protection with his family in Los Santos, San Andreas, under the alias Michael De Santa. He meets and later befriends a gangbanger Franklin Clinton when the latter attempts to fraudulently repossess his son's car on behalf of a corrupt Armenian car salesman. When Michael discovers his wife Amanda has been sleeping with her tennis coach, he chases the coach to a mansion and destroys it out of anger. The mansion's owner turns out to be the girlfriend of Mexican drug lord Martin Madrazo, who demands compensation under the threat of further violence. Michael goes back into a life of crime to obtain the money and enlists Franklin as an accomplice. Together, they perform a jewellery shop heist to help pay the debt. Michael's sole surviving partner in the Ludendorff robbery, Trevor Philips, hears of the jewellery heist and realises that it was Michael's handiwork. The two reunite after Trevor tracks Michael down in Los Santos.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- clear space -->
+                        <div style="width:100%; height:20px"> </div>
+
+                        <h4 class="heading-primary">Download and Streams</h4>
+
+
+
+                        <!-- Radio button -->
+                        <div class="row">
+                            <div class="col-md-3">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="btn-group" data-toggle="buttons" style="float: left">
+                                    <label class="btn btn-primary active">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked> English
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> Spanish
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="options" id="option3" autocomplete="off"> French
+                                    </label>
+                                </div>
+                            </div>
+                            <!-- Release Accordion -->
+                            <div class="col-md-12">
+                                <div class="toggle toggle-dark" data-plugin-toggle="">
+                                    <section class="toggle">
+                                        <label>Episode 1</label>
+                                        <div class="toggle-content">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Stream [720p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Stream [480p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://static1.dmcdn.net/images/dailymotion-logo-ogtag.png.v2779e025da411e7f1" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://filmmakerseo.com/vimeo/vimeologo.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Download [720p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://filmmakerseo.com/vimeo/vimeologo.png" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+
+                                        </div>
+                                    </section>
+                                    <section class="toggle">
+                                        <label>Episode 2</label>
+                                        <div class="toggle-content">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Stream [720p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Stream [480p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://static1.dmcdn.net/images/dailymotion-logo-ogtag.png.v2779e025da411e7f1" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://filmmakerseo.com/vimeo/vimeologo.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Download [720p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://filmmakerseo.com/vimeo/vimeologo.png" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </section>
+                                    <section class="toggle">
+                                        <label>Episode 3</label>
+                                        <div class="toggle-content">
+                                            <table class="table table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Stream [720p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Stream [480p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://static1.dmcdn.net/images/dailymotion-logo-ogtag.png.v2779e025da411e7f1" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://filmmakerseo.com/vimeo/vimeologo.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h4 style="margin: 0px">Download [720p]</h4>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="http://filmmakerseo.com/vimeo/vimeologo.png" />
+                                                            </a>
+                                                            <a href="#"><img style="float:right; width: 24px; margin: 5px" src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" />
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="short" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4 class="heading-primary">Latest News</h4>
+                        <ul class="nav nav-list mb-xl">
+                            <li><a title="Class aptent taciti sociosqu ad litora torquent" href="blog-post.html">Class aptent taciti sociosqu ad...</a>
+                            </li>
+                            <li><a title="Class aptent taciti sociosqu ad litora torquent" href="blog-post.html">Aptent class taciti sociosqu...</a>
+                            </li>
+                            <li><a title="Class aptent taciti sociosqu ad litora torquent" href="blog-post.html">Taciti aptent class sociosqu ad...</a>
+                            </li>
+                            <li><a title="Class aptent taciti sociosqu ad litora torquent" href="blog-post.html">Sociosqu class aptent taciti...</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="heading-primary">Latest Tweets</h4>
+                        <div id="tweet" class="twitter" data-plugin-tweets data-plugin-options='{"username": "", "count": 2}'>
+                            <p>Please wait...</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h4 class="heading-primary">Latest Releases</h4>
+
+                        <ul class="recent-work">
+                            <li>
+                                <a class="img-thumbnail img-thumbnail-hover-icon" href="portfolio-single-project.html">
+                                    <img class="img-responsive" src="img/projects/project.jpg" alt="Project Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-thumbnail img-thumbnail-hover-icon" href="portfolio-single-project.html">
+                                    <img class="img-responsive" src="img/projects/project-1.jpg" alt="Project Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-thumbnail img-thumbnail-hover-icon" href="portfolio-single-project.html">
+                                    <img class="img-responsive" src="img/projects/project-2.jpg" alt="Project Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-thumbnail img-thumbnail-hover-icon" href="portfolio-single-project.html">
+                                    <img class="img-responsive" src="img/projects/project-3.jpg" alt="Project Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-thumbnail img-thumbnail-hover-icon" href="portfolio-single-project.html">
+                                    <img class="img-responsive" src="img/projects/project-4.jpg" alt="Project Image">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="img-thumbnail img-thumbnail-hover-icon" href="portfolio-single-project.html">
+                                    <img class="img-responsive" src="img/projects/project-5.jpg" alt="Project Image">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div class="logo">
+                                <img alt="Porto Website Template" class="img-responsive" src="img/logo-footer.png">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <p>© Copyright 2016. All Rights Reserved.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <nav id="sub-menu">
+                                <ul>
+                                    <li><a href="disclaimer.html">Disclaimer</a>
+                                    </li>
+                                    <li><a href="contact-us.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Vendor -->
+    <!--[if lt IE 9]>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="vendor/jquery/jquery.js"></script>
+    <!--<![endif]-->
+    <script src="vendor/jquery.appear/jquery.appear.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.js"></script>
+    <script src="vendor/jquery-cookie/jquery-cookie.js"></script>
+    <script src="vendor/bootstrap/bootstrap.js"></script>
+    <script src="vendor/common/common.js"></script>
+    <script src="vendor/jquery.validation/jquery.validation.js"></script>
+    <script src="vendor/jquery.stellar/jquery.stellar.js"></script>
+    <script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+    <script src="vendor/jquery.gmap/jquery.gmap.js"></script>
+    <script src="vendor/isotope/jquery.isotope.js"></script>
+    <script src="vendor/owlcarousel/owl.carousel.js"></script>
+    <script src="vendor/jflickrfeed/jflickrfeed.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="vendor/vide/vide.js"></script>
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
+
+    <!-- Specific Page Vendor and Views -->
+    <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/circle-flip-slideshow/js/jquery.flipshow.js"></script>
+    <script src="js/views/view.home.js"></script>
+
+    <!-- Theme Custom -->
+    <script src="js/custom.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
+
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-12345678-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
+     -->
+
+</body>
+
+</html>
