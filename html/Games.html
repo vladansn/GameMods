@@ -48,7 +48,7 @@
 
 
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+
     <link rel="stylesheet" href="css/CircularContentCarouselstyle.css">
     <link rel="stylesheet" href="css/jscrollpane.css">
     <link rel="stylesheet" href="css/brand.css">
@@ -68,170 +68,80 @@
     <!-- Re-import the carousel from source -->
     <link rel="stylesheet" type="text/css" href="vendor/CircularContentCarousel/CircularContentCarousel/css/style.css" />
     <link rel="stylesheet" type="text/css" href="vendor/CircularContentCarousel/CircularContentCarousel/css/jquery.jscrollpane.css" media="all">
-    <style type="text/css">
-        /* Circular Content Carousel */
-        
-        .ca-container {
-            position: relative;
-            margin: 25px auto 20px auto;
-            margin-top: 0px;
-            width: 1245px;
-            height: 317px;
-        }
-        .ca-wrapper {
-            width: 100%;
-            height: 100%;
-            position: relative;
-        }
-        .ca-item {
-            position: relative;
-            float: left;
-            width: 415px;
-            height: 100%;
-            text-align: center;
-        }
-        .ca-item-main {
-            padding: 10px;
-            position: absolute;
-            top: 5px;
-            left: 5px;
-            right: 5px;
-            bottom: 5px;
-            background: #fff;
-            overflow: hidden;
-            -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-            -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-        }
-        .ca-icon {
-            width: 280px;
-            height: 400px;
-            position: relative;
-        }
-        .ca-content-wrapper {
-            background: #fff;
-            position: absolute;
-            width: 0px;
-            height: 420px;
-            top: 5px;
-            text-align: left;
-            z-index: 10000;
-            overflow: hidden;
-        }
-        .ca-nav span {
-            width: 25px;
-            height: 38px;
-            background: transparent url(vendor/CircularContentCarousel/CircularContentCarousel/images/arrows.png) no-repeat top left;
-            position: absolute;
-            top: 50%;
-            margin-top: -19px;
-            left: -40px;
-            text-indent: -9000px;
-            opacity: 0.7;
-            cursor: pointer;
-            z-index: 100;
-        }
-        .ca-nav span.ca-nav-next {
-            background-position: top right;
-            left: auto;
-            right: -40px;
-        }
-        .ca-nav span:hover {
-            opacity: 1.0;
-        }
-    }
-    @media (min-width: 1340px) {
-        .ca-container {
-            width: 1245px;
-        }
-    }
-    @media (min-width: 1025px) and (max-width: 1340px) {
-        .ca-container {
-            width: 830px;
-        }
-    }
-    @media (min-width: 715px) and (max-width: 1025px) {
-        .ca-container {
-            width: 420px;
-        }
-    }
-    @media (max-width: 715px) {
-        .ca-container {
-            width: 310px;
-        }
-    }
-    </style>
+    <link rel="stylesheet" href="css/custom.css">
+
 </head>
 
 <body>
 
-    <div class="body" style="background:#ffffff">
-        <header id="header" class="narrow" data-plugin-options='{"alwaysStickyEnabled": true, "stickyEnabled": true, "stickyWithGap": false, "stickyChangeLogoSize": false}'>
-            <div class="container">
-                <div class="logo">
-                    <a href="index.html">
-                        <img alt="Porto" src="img/logo.png">
-                    </a>
-                </div>
-                <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-            </div>
-            <div class="navbar-collapse nav-main-collapse collapse">
+    <div class="body">
+           <header id="header" class="narrow" data-plugin-options='{"alwaysStickyEnabled": true, "stickyEnabled": true, "stickyWithGap": false, "stickyChangeLogoSize": false}'>
                 <div class="container">
-                    <ul class="social-icons">
-                        <li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a>
-                        </li>
-                        <li class="rss"><a href="http://www.twitter.com/" target="_blank" title="RSS">RSS</a>
-                        </li>
-                    </ul>
-                    <nav class="nav-main mega-menu">
-                        <ul class="nav nav-pills nav-main" id="mainMenu">
-                            <li>
-                                <a href="#">
-                                    Home
-                                </a>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img alt="Porto" src="img/logo.png">
+                        </a>
+                    </div>
+                    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div class="navbar-collapse nav-main-collapse collapse">
+                    <div class="container">
+                        <ul class="social-icons">
+                            <!--<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>-->
+                            <li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    News
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Let's Play
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Release Calendar
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Walkthrough
-                                </a>
-                            </li>
-                            <li class="active">
-                                <a href="#">
-                                    Games
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    FAQ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Contact
-                                </a>
+                            <li class="rss"><a href="http://www.twitter.com/" target="_blank" title="RSS">RSS</a>
                             </li>
                         </ul>
-                    </nav>
+                        <nav class="nav-main mega-menu">
+                            <ul class="nav nav-pills nav-main" id="mainMenu">
+                                <li>
+                                    <a href="Homepage.html">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="News.html">
+                                        News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Let's Play List.html">
+                                        Let's Play
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="Calendar.html">
+                                        Release Calendar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Walkthrough.html">
+                                        Walkthrough
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="Games.html">
+                                        Games
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="FAQ.html">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Contact-Us.html">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
 
 
         <!-- Carousel -->
@@ -249,7 +159,7 @@
                         <div class="ca-item-main">
                             <div class="ca-icon">
                                 <a href="/Media/Show/3864/ark" class="preloader">
-                                    <img src="img/media/ark.jpg" style="width:390px;height:294px;display: block; visibility: visible; opacity: 1;margin-left:-56px;margin-top:-4px;" alt="Kowaremono: Risa The Animation" title="Kowaremono: Risa The Animation">
+                                    <img src="img/media/ark.jpg" alt="Kowaremono: Risa The Animation" title="Kowaremono: Risa The Animation">
                                 </a>
                             </div>
                         </div>
@@ -258,7 +168,7 @@
                         <div class="ca-item-main">
                             <div class="ca-icon">
                                 <a href="/Media/Show/3841/gta" class="preloader">
-                                    <img src="img/media/gta.jpg" style="width:390px;height:294px;display: block; visibility: visible; opacity: 1;margin-left:-56px;margin-top:-4px;" alt="Oni Chichi: Refresh" title="Oni Chichi: Refresh">
+                                    <img src="img/media/gta.jpg" alt="Oni Chichi: Refresh" title="Oni Chichi: Refresh">
                                 </a>
                             </div>
                         </div>
@@ -267,7 +177,7 @@
                         <div class="ca-item-main">
                             <div class="ca-icon">
                                 <a href="/Media/Show/3850/minecraft" class="preloader">
-                                    <img src="img/media/minecraft.jpg" style="width:390px;height:294px;display: block; visibility: visible; opacity: 1;margin-left:-56px;margin-top:-4px;" alt="Creamy Pie" title="Creamy Pie">
+                                    <img src="img/media/minecraft.jpg" alt="Creamy Pie" title="Creamy Pie">
                                 </a>
                             </div>
                         </div>
@@ -276,7 +186,7 @@
                         <div class="ca-item-main">
                             <div class="ca-icon">
                                 <a href="/Media/Show/3860/ark" class="preloader">
-                                    <img src="img/media/ark.jpg" style="width:390px;height:294px;display: block; visibility: visible; opacity: 1;margin-left:-56px;margin-top:-4px;" alt="Kowaremono The Animation" title="Kowaremono The Animation">
+                                    <img src="img/media/ark.jpg" alt="Kowaremono The Animation" title="Kowaremono The Animation">
                                 </a>
                             </div>
                         </div>

@@ -46,7 +46,7 @@
 
 
     <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+   
     <link rel="stylesheet" href="css/CircularContentCarouselstyle.css">
     <link rel="stylesheet" href="css/jscrollpane.css">
 
@@ -62,176 +62,83 @@
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="vendor/CircularContentCarousel/CircularContentCarousel/css/style.css" />
     <link rel="stylesheet" type="text/css" href="vendor/CircularContentCarousel/CircularContentCarousel/css/jquery.jscrollpane.css" media="all">
+     <link rel="stylesheet" href="css/custom.css">
 
-    <!-- Carousel -->
-    <!-- Re-import the carousel from source -->
-    <style type="text/css">
-        /* Circular Content Carousel */
-        
-        .ca-container {
-            position: relative;
-            margin: 25px auto 20px auto;
-            margin-top: 0px;
-            width: 1245px;
-            height: 422px;
-        }
-        .ca-wrapper {
-            width: 100%;
-            height: 100%;
-            position: relative;
-        }
-        .ca-item {
-            position: relative;
-            float: left;
-            width: 310px;
-            height: 100%;
-            text-align: center;
-        }
-        .ca-item-main {
-            padding: 10px;
-            position: absolute;
-            top: 5px;
-            left: 5px;
-            right: 5px;
-            bottom: 5px;
-            background: #fff;
-            overflow: hidden;
-            -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-            -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-        }
-        .ca-icon {
-            width: 280px;
-            height: 400px;
-            position: relative;
-        }
-        .ca-content-wrapper {
-            background: #fff;
-            position: absolute;
-            width: 0px;
-            height: 420px;
-            top: 5px;
-            text-align: left;
-            z-index: 10000;
-            overflow: hidden;
-        }
-        .ca-nav span {
-            width: 25px;
-            height: 38px;
-            background: transparent url(vendor/CircularContentCarousel/CircularContentCarousel/images/arrows.png) no-repeat top left;
-            position: absolute;
-            top: 50%;
-            margin-top: -19px;
-            left: -40px;
-            text-indent: -9000px;
-            opacity: 0.7;
-            cursor: pointer;
-            z-index: 100;
-        }
-        .ca-nav span.ca-nav-next {
-            background-position: top right;
-            left: auto;
-            right: -40px;
-        }
-        .ca-nav span:hover {
-            opacity: 1.0;
-        }
-        @media (min-width: 1340px) {
-            .ca-container {
-                width: 1245px;
-            }
-        }
-        @media (min-width: 1025px) and (max-width: 1340px) {
-            .ca-container {
-                width: 930px;
-            }
-        }
-        @media (min-width: 715px) and (max-width: 1025px) {
-            .ca-container {
-                width: 620px;
-            }
-        }
-        @media (max-width: 715px) {
-            .ca-container {
-                width: 310px;
-            }
-        }
-    </style>
+   
 </head>
 
 <body>
 
     <!-- Header -->
 
-    <div class="body" style="background:#ffffff">
-        <header id="header" class="narrow" data-plugin-options='{"alwaysStickyEnabled": true, "stickyEnabled": true, "stickyWithGap": false, "stickyChangeLogoSize": false}'>
-            <div class="container">
-                <div class="logo">
-                    <a href="index.html">
-                        <img alt="Porto" src="img/logo.png">
-                    </a>
-                </div>
-                <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-            </div>
-            <div class="navbar-collapse nav-main-collapse collapse">
+    <div class="body">
+       <header id="header" class="narrow" data-plugin-options='{"alwaysStickyEnabled": true, "stickyEnabled": true, "stickyWithGap": false, "stickyChangeLogoSize": false}'>
                 <div class="container">
-                    <ul class="social-icons">
-                        <li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a>
-                        </li>
-                        <li class="rss"><a href="http://www.twitter.com/" target="_blank" title="RSS">RSS</a>
-                        </li>
-                    </ul>
-                    <nav class="nav-main mega-menu">
-                        <ul class="nav nav-pills nav-main" id="mainMenu">
-                            <li class="active">
-                                <a href="#">
-                                    Home
-                                </a>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img alt="Porto" src="img/logo.png">
+                        </a>
+                    </div>
+                    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div class="navbar-collapse nav-main-collapse collapse">
+                    <div class="container">
+                        <ul class="social-icons">
+                            <!--<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>-->
+                            <li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    News
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Let's Play
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Release Calendar
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Walkthrough
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Games
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    FAQ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Contact
-                                </a>
+                            <li class="rss"><a href="http://www.twitter.com/" target="_blank" title="RSS">RSS</a>
                             </li>
                         </ul>
-                    </nav>
+                        <nav class="nav-main mega-menu">
+                            <ul class="nav nav-pills nav-main" id="mainMenu">
+                                <li class="active">
+                                    <a href="Homepage.html">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="News.html">
+                                        News
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Let's Play List.html">
+                                        Let's Play
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Calendar.html">
+                                        Release Calendar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Walkthrough.html">
+                                        Walkthrough
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Games.html">
+                                        Games
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="FAQ.html">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="Contact-Us.html">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </header>
-
-
+            </header>
 
 
         <!-- Carousel -->
@@ -247,45 +154,45 @@
 
                     <div class="ca-item ca-item-1" style="position: absolute; left: 0px;">
                         <div class="ca-item-main">
-                            <div class="ca-icon">
+                            <div class="ca-icon home-carousel">
                                 <a href="#" class="preloader">
-                                    <img src="Content/Uploads/Cover/gta-cover.jpg" style="width:280px;height:392px" alt="game title" title="game title" style="display: block; visibility: visible; opacity: 1;">
+                                    <img src="Content/Uploads/Cover/gta-cover.jpg" alt="game title" title="game title">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="ca-item ca-item-1" style="position: absolute; left: 330px;">
                         <div class="ca-item-main">
-                            <div class="ca-icon">
+                            <div class="ca-icon home-carousel">
                                 <a href="#" class="preloader">
-                                    <img src="Content/Uploads/Cover/nomansky.jpg" style="width:280px;height:392px" alt="game title" title="game title" style="display: block; visibility: visible; opacity: 1;">
+                                    <img src="Content/Uploads/Cover/nomansky.jpg"  alt="game title" title="game title">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="ca-item ca-item-1" style="position: absolute; left: 660px;">
                         <div class="ca-item-main">
-                            <div class="ca-icon">
+                            <div class="ca-icon home-carousel">
                                 <a href="#" class="preloader">
-                                    <img src="Content/Uploads/Cover/bioshock.jpg" style="width:280px;height:392px" alt="game title" title="game title" style="display: block; visibility: visible; opacity: 1;">
+                                    <img src="Content/Uploads/Cover/bioshock.jpg" alt="game title" title="game title">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="ca-item ca-item-1" style="position: absolute; left: 990px;">
                         <div class="ca-item-main">
-                            <div class="ca-icon">
+                            <div class="ca-icon home-carousel">
                                 <a href="#" class="preloader">
-                                    <img src="Content/Uploads/Cover/lego.jpg" style="width:280px;height:392px" alt="game title" title="game title" style="display: block; visibility: visible; opacity: 1;">
+                                    <img src="Content/Uploads/Cover/lego.jpg" alt="game title" title="game title">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="ca-item ca-item-1" style="position: absolute; left: 990px;">
                         <div class="ca-item-main">
-                            <div class="ca-icon">
+                            <div class="ca-icon home-carousel">
                                 <a href="#" class="preloader">
-                                    <img src="Content/Uploads/Cover/borderlands.jpg" style="width:280px;height:392px" alt="game title" title="game title" style="display: block; visibility: visible; opacity: 1;">
+                                    <img src="Content/Uploads/Cover/borderlands.jpg" alt="game title" title="game title">
                                 </a>
                             </div>
                         </div>

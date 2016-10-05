@@ -3961,3 +3961,9 @@ html.boxed body.sticky-menu-active #header {
 		background: none !important;
 	}
 }
+@media (max-width: 1200px) and (min-width: 992px) {
+
+	#header nav ul.nav-main li a {
+		padding: 10px 10px !important;
+	}
+}
